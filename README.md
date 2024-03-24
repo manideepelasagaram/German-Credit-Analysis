@@ -1,5 +1,5 @@
 # German-Credit-Analysis
-##Introduction
+## Introduction
 The "German Credit Project" data source available at https://www.dataminingbook.com/content/datasets-download-1st-edition provides comprehensive data on the credit risk of individuals. This data can be used to determine whether a person represents good or bad credit risk. Using this data source provides easier access to information that would otherwise have to be compiled manually from multiple sources and, in some cases, even locked behind a paywall. The data includes information on borrowers, including personal data, employment history, credit history, and other financial metrics. These can be used as predictor variables in a model to predict the credit risk of individuals and make informed decisions.
 There are two types of risks associated with the bank’s decision:
 • If the applicant is likely to repay the loan i.e., having a good credit risk, then not approving the loan to the person results in a loss of business to the bank.
