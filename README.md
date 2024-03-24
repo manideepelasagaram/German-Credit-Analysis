@@ -90,7 +90,7 @@ Comparing the predictive accuracy in your validation data for all the models dev
 
 The Logistic regression model has given the highest accuracy when compared to KNN and Trees.
 
-##Summary
+## Summary
 The predictors we would use based on predictive accuracy and the analysis above:
 We will identify significant predictor columns by considering those with low P-values (p<=0.05). Below are some examples of these columns.
 • CHK_ACCT – Checking account status with the Bank.
