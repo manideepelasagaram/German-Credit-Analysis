@@ -67,7 +67,7 @@ Comparing the predictive accuracy in your validation data for all the models dev
 K-NN MODEL:
 The algorithm works by finding the k-nearest neighbors to a given data point in the training data and using their labels to predict the label of the new data point.
  
-Final Project – German Credit
+German Credit:
 We have evaluated the algorithm's predictive accuracy on the German Credit dataset using two different values of k, i.e., k=3 and k=11. We have achieved an accuracy of 72.75% for k=3 and an accuracy of 76% for k=11.
 This means that when k=11, the algorithm can correctly predict the class label of a new data point 76% of the time. The higher accuracy score suggests that the algorithm's performance improved when we increased the value of k from 3 to 11.
 Classification TREE:
@@ -77,8 +77,9 @@ Our optimization of hyperparameters resulted in an enhanced accuracy of 75.75% f
 Logistic Regression:
 Based on our analysis using the Logistic Regression model, we were able to achieve an overall predictive accuracy of 77% at a probability threshold of 0.5. This indicates that the model can
    
-Final Project – German Credit
-accurately classify individuals as either having good or bad credit risk based on their attributes. However, it's worth noting that the accuracy of the model varies depending on the probability threshold used. For instance, at a probability threshold of 0.3, we achieved an accuracy of 73.5%. We can continue to refine and optimize the model to improve its overall accuracy and ensure that it can effectively predict credit risk for individuals.
+German Credit:
+Accurately classify individuals as either having good or bad credit risk based on their attributes. However, it's worth noting that the accuracy of the model varies depending on the probability threshold used. For instance, at a probability threshold of 0.3, we achieved an accuracy of 73.5%. We can continue to refine and optimize the model to improve its overall accuracy and ensure that it can effectively predict credit risk for individuals.
+
 Comparing the predictive accuracy in your validation data for all the models developed above are given below:
 • The Predictive Accuracy we got from k-NN,
 • At K=3, we got an accuracy of 72.75%
@@ -86,17 +87,18 @@ Comparing the predictive accuracy in your validation data for all the models dev
 • The Predictive Accuracy we got from the default Decision tree is 74.25%
 • The Predictive Accuracy we got from the Pruned tree is 75.75%
 • The Predictive accuracy we have got from Logistic regression is 75.94%
+
 The Logistic regression model has given the highest accuracy when compared to KNN and Trees.
-Summary
+
+##Summary
 The predictors we would use based on predictive accuracy and the analysis above:
 We will identify significant predictor columns by considering those with low P-values (p<=0.05). Below are some examples of these columns.
 • CHK_ACCT – Checking account status with the Bank.
-
-Final Project – German Credit
 • HISTORY – Credit History
 • SAV_ACCT – Avg Balance in Savings Account
 • INSTALL_RATE – Installment rate %
 • OTHER_INSTALL – Other installments if any
 • FOREIGN – Either Foreign worker or not
 • TELEPHONE – Applicant has a phone number in this name.
+
 We can consider these important attributes from this model, as these variables play an important role in classifying whether a person has a Bad Credit Rating or Good Credit Rating.
