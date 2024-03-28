@@ -18,23 +18,32 @@ Final Project – German Credit
 
 ## 2. Explore, Clean, and Preprocess Data; Reduce Data Dimension
 • Applicants with good credit have a great possibility to repay financial obligations. Applicants with bad credit have a high possibility of defaulting.
+
 • The German Credit dataset contains information about 1000 customers. By using this data, and developing & assessing various models, the bank can decide on a prospective applicant, whether to go ahead with the loan approval or not.
 
 ## 3. Determine the Data Mining Task
 Details about a few Fields from the given dataset,
+
 • The OBS column has been dropped, it is Observation Number(it is like a serial no.)
+
 • The Fields ‘NEW_CAR, USED_CAR, FURNITURE, RADIO/TV, EDUCATION, and
 RETRAINING belong to the Purpose of taking a loan. In this dataset, we can see them
 as dummies created to take a loan.
+
 • The field of HISTORY has 4 levels, these are classified based on the past credit History
 of a person.
+
 • The field SA V_ACCT has 5 levels; these are classified based on the average balance in
 a savings account.
+
 • The field CHK_ACCT has 4 levels; these are classified based on the status of the
 checking account.
+
 • The field EMPLOYMENT has 5 levels, these are classified based on the number of
 years of employment a person has.
+
 • The field JOB has 4 levels, these are classified based on the nature of the JOB
+
 • Our variable of interest is the RESPONSE field, which holds the credit rating of a
 customer(person) (1-Good Credit Rating, 0-Bad Credit Rating)
 
@@ -85,10 +94,15 @@ Accurately classify individuals as either having good or bad credit risk based o
 
 Comparing the predictive accuracy in your validation data for all the models developed above are given below:
 • The Predictive Accuracy we got from k-NN,
+
 • At K=3, we got an accuracy of 72.75%
+
 • AT K=11, we have got the Accuracy of 76%
+
 • The Predictive Accuracy we got from the default Decision tree is 74.25%
+
 • The Predictive Accuracy we got from the Pruned tree is 75.75%
+
 • The Predictive accuracy we have got from Logistic regression is 75.94%
 
 The Logistic regression model has given the highest accuracy when compared to KNN and Trees.
@@ -96,12 +110,19 @@ The Logistic regression model has given the highest accuracy when compared to KN
 ## Summary
 The predictors we would use based on predictive accuracy and the analysis above:
 We will identify significant predictor columns by considering those with low P-values (p<=0.05). Below are some examples of these columns.
+
 • CHK_ACCT – Checking account status with the Bank.
+
 • HISTORY – Credit History
+
 • SAV_ACCT – Avg Balance in Savings Account
+
 • INSTALL_RATE – Installment rate %
+
 • OTHER_INSTALL – Other installments if any
+
 • FOREIGN – Either Foreign worker or not
+
 • TELEPHONE – Applicant has a phone number in this name.
 
 We can consider these important attributes from this model, as these variables play an important role in classifying whether a person has a Bad Credit Rating or Good Credit Rating.
