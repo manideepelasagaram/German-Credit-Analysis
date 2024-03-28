@@ -9,8 +9,11 @@ There are two types of risks associated with the bank’s decision:
 ## 1. Develop Understanding
 • Our project goal is to develop a credit risk assessment model that analyzes a set of attributes of an individual and accurately classifies them as either good or bad credit risk.
 Final Project – German Credit
+
 • The model will use a combination of statistical and machine learning techniques to identify the most important factors that influence credit risk and provide insights to help lenders make informed decisions about lending to potential borrowers.
+
 • The outcome of the German Credit Project is to predict whether a person has a good or bad credit risk based on a set of attributes. Additionally, we aim to identify the most important attributes that contribute to good or bad credit risk and provide insights to financial institutions to make informed decisions.
+
 • Our analysis of the German Credit Project can be an ongoing effort, with more real-time data available to collect from financial transactions and credit history. We believe that this will be able to improve our accuracy as more data is collected and analyzed over time. The goal is to create a model that can accurately predict whether an individual has good or bad credit risk based on a set of attributes, and to continue refining and updating the model as new data becomes available.
 
 ## 2. Explore, Clean, and Preprocess Data; Reduce Data Dimension
